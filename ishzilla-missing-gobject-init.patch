@@ -1,0 +1,10 @@
+--- ishzilla-0.3/src/ishzilla.c.orig	Thu Jun 19 07:44:11 2003
++++ ishzilla-0.3/src/ishzilla.c	Mon Jun 23 14:36:03 2003
+@@ -32,6 +32,7 @@
+ 	guint i;
+ 	gboolean no_ipc = FALSE;
+ 
++	g_type_init();
+ 	ishzilla_preferences_init(&argc,&argv);
+ 
+ 	for (i = 0; i < argc; i++) {
