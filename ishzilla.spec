@@ -6,6 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ishamael.tunkeymicket.com/tarballs/%{name}-%{version}.tar.gz
+# Source0-md5:	02f96bfe82a9584b0dd0c72d9556cf62
 URL:		http://ishamael.tunkeymicket.com/
 BuildRequires:	GConf2-devel >= 2.0.0
 BuildRequires:	gob2 >= 2.0.5
