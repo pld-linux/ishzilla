@@ -1,5 +1,5 @@
 Summary:	ishzilla is a web browse
-Summary(pl):	ishzilla to przegldarka www
+Summary(pl):	ishzilla to przegl±darka www
 Name:		ishzilla
 Version:	0.3
 Release:	0.1
@@ -7,7 +7,6 @@ License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ishamael.tunkeymicket.com/tarballs/%{name}-%{version}.tar.gz
 URL:		http://ishamael.tunkeymicket.com/
-BuildRequires:	GConf2-devel >= 2.0.0
 BuildRequires:	GConf2-devel >= 2.0.0
 BuildRequires:	GOB >= 2.0.5
 BuildRequires:	gtk+2-devel >= 2.0.6
