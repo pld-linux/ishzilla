@@ -15,7 +15,6 @@ BuildRequires:	gtk+2-devel >= 2.0.6
 BuildRequires:	libxml2-devel
 BuildRequires:	mozilla-embedded-devel >= 1.4b
 Requires(post):	GConf2
-Obsoletes:	skipstone
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
