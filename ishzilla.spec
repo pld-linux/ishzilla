@@ -11,7 +11,7 @@ Patch0:		%{name}-missing-gobject-init.patch
 URL:		http://ishamael.tunkeymicket.com/
 BuildRequires:	GConf2-devel >= 2.0.0
 BuildRequires:	gob2 >= 2.0.5
-BuildRequires:	gtk+2-devel >= 2.0.6
+BuildRequires:	gtk+2-devel >= 1:2.0.6
 BuildRequires:	libxml2-devel
 BuildRequires:	mozilla-embedded-devel >= 1.4b
 Requires(post):	GConf2
