@@ -7,17 +7,24 @@ License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ishamael.tunkeymicket.com/tarballs/%{name}-%{version}.tar.gz
 URL:		http://ishamael.tunkeymicket.com/
-BuildRequires:  GConf2-devel >= 2.0.0
-BuildRequires:  gtk+2-devel >= 2.0.6
-BuildRequires:  mozilla-embedded-devel >= 1.4b
+BuildRequires:	GConf2-devel >= 2.0.0
+BuildRequires:	GConf2-devel >= 2.0.0
+BuildRequires:	GOB >= 2.0.5
+BuildRequires:	gtk+2-devel >= 2.0.6
+BuildRequires:	libxml2
+BuildRequires:	mozilla-embedded-devel >= 1.4b
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+ishzilla is a web browser written in C using Gtk+-2 and Gecko, the
+rendering engine from Mozilla.
 
 %description -l pl
+ishzilla to przegldarka web napisana w C przy u¿yciu Gtk+-2 i Gecko,
+silnika renderujacego Mozilli.
 
 %prep
-%setup -q 
+%setup -q
 
 %build
 rm -f missing
