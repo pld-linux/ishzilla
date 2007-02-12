@@ -1,5 +1,5 @@
 Summary:	ishzilla - a Gecko-based web browser
-Summary(pl):	ishzilla - przegl±darka WWW oparta na Gecko
+Summary(pl.UTF-8):   ishzilla - przeglÄ…darka WWW oparta na Gecko
 Name:		ishzilla
 Version:	0.3
 Release:	0.1
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ishzilla is a web browser written in C using Gtk+-2 and Gecko, the
 rendering engine from Mozilla.
 
-%description -l pl
-ishzilla to przegl±darka WWW napisana w C przy u¿yciu Gtk+-2 i Gecko,
-silnika renderuj±cego Mozilli.
+%description -l pl.UTF-8
+ishzilla to przeglÄ…darka WWW napisana w C przy uÅ¼yciu Gtk+-2 i Gecko,
+silnika renderujÄ…cego Mozilli.
 
 %prep
 %setup -q
