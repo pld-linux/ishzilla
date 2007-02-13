@@ -1,5 +1,5 @@
 Summary:	ishzilla - a Gecko-based web browser
-Summary(pl.UTF-8):   ishzilla - przeglądarka WWW oparta na Gecko
+Summary(pl.UTF-8):	ishzilla - przeglądarka WWW oparta na Gecko
 Name:		ishzilla
 Version:	0.3
 Release:	0.1
